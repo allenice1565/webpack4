@@ -1,0 +1,16 @@
+:root {
+	--color-1: #fff;
+	--bg-1: url("~@assets/images/1.jpg");
+	--bg-2: url(https://nuxt.com/assets/design-kit/timeline-light.svg);
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: calc(50% - 50px) ;
+	left: calc(50% - 50px) ;
+	background-image: var(--bg-1);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

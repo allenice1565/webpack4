@@ -1,0 +1,23 @@
+{
+	"name": "webpack4-postcss-url",
+	"private": true,
+	"scripts": {
+		"dev": "webpack --config webpack.config.js"
+	},
+	"devDependencies": {
+		"autoprefixer": "9.8.8",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "5.2.7",
+		"cssnano": "6.1.2",
+		"file-loader": "6.2.0",
+		"html-webpack-plugin": "4.5.2",
+		"postcss": "8.4.38",
+		"postcss-loader": "4.3.0",
+		"postcss-preset-env": "6.7.0",
+		"postcss-url": "10.1.3",
+		"style-loader": "2.0.0",
+		"url-loader": "4.1.1",
+		"webpack": "4",
+		"webpack-cli": "4.10.0"
+	}
+}
